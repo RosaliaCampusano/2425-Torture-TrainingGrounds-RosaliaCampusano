@@ -44,6 +44,9 @@ export default class Character {
         console.log(" -  weapon points to increase skill: " + points);
         console.log(this.name + " rolls a D" + numOfDice +  " and obtains a result of " + resultDie);
         console.log("Total points earned: " + points);    
+        console.log(this.name + " incrases " + this.weapon.type + " skill to" + skillPoints);
+        console.log(" -  current weapon points: " + this.weapon.points);
+        console.log(" -  weapon points to increase skill: " + points);
 
 
         return day;
